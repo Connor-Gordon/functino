@@ -1,0 +1,116 @@
+html {box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+#mainContainer {
+    border: 1px solid gray;
+    background-color: lightblue;
+    width: 1200px;
+    margin: auto;
+}
+
+#chatContainer {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+
+p {
+    margin: 10px;
+}
+
+#login {
+    border: 1px solid gray;
+    background-color: lightblue;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    left: 50px;
+}
+
+.loginStuff {
+    padding: 10px;
+    margin: 10px;
+}
+
+#skip {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 50px 0px;
+}
+
+.channelContainer{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.channels {
+    font-size: 20px;
+    margin: 20px 0px;
+    color: green;
+    border: 1px solid gray;
+    position: relative;
+    right: 25px;
+}
+
+#roomContainer {
+    display: flex;
+    flex-direction: column
+}
+
+#room {
+    width: 1000px;
+    height: 600px;
+    max-height: 600px;
+    background-color:goldenrod;
+    overflow-y: scroll;
+}
+
+#message {
+    width: 800px;
+    position: relative;
+}
+
+.messageP{
+    width: 1000px;
+    display: flex;
+}
+.username{
+    width: 75px;
+    background: lightblue;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.message{
+    width: 800px;
+    padding: 5px;
+}
+
+.date{
+    width: 100px;
+ }
